@@ -5,9 +5,10 @@ sudo ln -sf /home/box/web/etc/nginx.conf /etc/nginx/sites-available/default
 sudo /etc/init.d/nginx restart
 
 #gunicorn
-sudo rm -f /etc/gunicorn.d/hello.py
+#sudo rm -f /etc/gunicorn.d/hello.py
 sudo touch /home/box/web/gunicorn.log
-sudo ln -sf /home/box/web/etc/hello.py /etc/gunicorn.d/hello.py
+#sudo ln -sf /home/box/web/etc/django.py /etc/gunicorn.d/hello.py
+sudo gunicorn -c /etc/gunicorn.d/django.py ask.wsgi:application
 sudo /etc/init.d/gunicorn restart
 
 #mysql
