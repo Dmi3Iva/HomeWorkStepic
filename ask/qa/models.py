@@ -1,39 +1,25 @@
-# Question - вопрос
-# title - заголовок вопроса
-# text - полный текст вопроса
-# added_at - дата добавления вопроса
-# rating - рейтинг вопроса (число)
-# author - автор вопроса
-# likes - список пользователей, поставивших "лайк"
-#
-# Answer - ответ
-# text - текст ответа
-# added_at - дата добавления ответа
-# question - вопрос, к которому относится ответ
-# author - автор ответа
 from django.db import models
 from django.contrib.auth.models import User
 
-Class Question(models.Model):
-    title = models.CharField(max_length=255)
-    text = models.TextField()
-    added_at = models.DateTimeField()
-    rating = models.IntegerField()
-    #links
-    author = models.OneToOneField(User)
-    likes = models.ManyToManyField(User)
-
-    def QuestionManager():
-
+class QuestionManager(models.Manager):
     def new (self):
         return self.order_by('-added_at')
     def popular(self):
         return self.order_by('-rating')
 
-
-Class Answer(model):
+class Question (models.Model):
+    objects = QuestionManager()
+    title = models.CharField(max_length=255)
     text = models.TextField()
-    added_at = models.DateTimeField()
+    added_at = models.DateTimeField(blank=True, auto_now_add=True)
+    rating = models.IntegerField(default=0)
     #links
-    question = models.OneToOneField(Question)
-    author = models.OneToOneField(User)
+    author = models.ForeignKey(User, related_name="authors_users")
+    likes = models.ManyToManyField(User, related_name="likes_users")
+
+class Answer (models.Model):
+    text = models.TextField()
+    added_at = models.DateTimeField(blank=True,auto_now_add=True)
+    #links
+    question = models.ForeignKey(Question, related_name="question_id")
+    author = models.ForeignKey(User, related_name = "author_id")

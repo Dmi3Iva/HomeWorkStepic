@@ -1,0 +1,12 @@
+[2018-11-09 01:55:36 +0000] [913] [INFO] Starting gunicorn 19.6.0
+[2018-11-09 01:55:36 +0000] [913] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-11-09 01:55:36 +0000] [913] [ERROR] Retrying in 1 second.
+[2018-11-09 01:55:37 +0000] [913] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-11-09 01:55:37 +0000] [913] [ERROR] Retrying in 1 second.
+[2018-11-09 01:55:38 +0000] [913] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-11-09 01:55:38 +0000] [913] [ERROR] Retrying in 1 second.
+[2018-11-09 01:55:39 +0000] [913] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-11-09 01:55:39 +0000] [913] [ERROR] Retrying in 1 second.
+[2018-11-09 01:55:40 +0000] [913] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-11-09 01:55:40 +0000] [913] [ERROR] Retrying in 1 second.
+[2018-11-09 01:55:41 +0000] [913] [ERROR] Can't connect to ('0.0.0.0', 8000)

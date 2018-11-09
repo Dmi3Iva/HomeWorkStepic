@@ -12,7 +12,8 @@ sudo gunicorn -c /etc/gunicorn.d/django_conf.py ask.wsgi:application
 
 #mysql
 sudo /etc/init.d/mysql start
-mysql -uroot -e "create database db_django"
+mysql -uroot -e "create database db_stepic"
 
-python ask/manage.py syncdb
+python ask/manage.py makemigrations qa
+python ask/manage.py migrate
 #python ask/manage.py syncdb
