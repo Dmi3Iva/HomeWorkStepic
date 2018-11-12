@@ -2,10 +2,34 @@ from django.db import models
 from django.contrib.auth.models import User
 
 class QuestionManager(models.Manager):
+
+    def getQuestionsPage(self, request, questions, baseurl, html):
+        limit = request.Get.get('limit',10)
+        page = request.Get.get('page',1)
+        paginator = Paginator(questions, limit)
+        paginator.baseurl = baseurl
+        page = paginator.page(page)
+        return render(
+            request,
+            html,
+            {
+                'questions':page.object_list,
+                'paginator':paginator,
+                'page':page
+            }
+        )
+
     def new (self):
-        return self.order_by('-added_at')
+        questions = self.order_by('-added_at')
+        return self.getQuestionsPage(self,request, questions,'?page=', 'new.html')
+
     def popular(self):
         return self.order_by('-rating')
+        return self.getQuestionsPage(self,request, questions,'/popular/?page=', 'popular.html')
+
+    def question(self)
+        return self.filter()
+
 
 class Question (models.Model):
     objects = QuestionManager()
@@ -16,6 +40,7 @@ class Question (models.Model):
     #links
     author = models.ForeignKey(User, related_name="authors_users")
     likes = models.ManyToManyField(User, related_name="likes_users")
+
 
 class Answer (models.Model):
     text = models.TextField()
