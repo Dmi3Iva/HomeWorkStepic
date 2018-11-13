@@ -19,16 +19,23 @@ class QuestionManager(models.Manager):
             }
         )
 
-    def new (self):
+    def new (self, request):
         questions = self.order_by('-added_at')
         return self.getQuestionsPage(self,request, questions,'?page=', 'new.html')
 
-    def popular(self):
-        return self.order_by('-rating')
+    def popular(self,request):
+        questions =  self.order_by('-rating')
         return self.getQuestionsPage(self,request, questions,'/popular/?page=', 'popular.html')
 
-    def question(self)
-        return self.filter()
+    def question(self,request, pk)
+        question = get_object_or_404(Question, pk)
+        return render(
+            request,
+            'question.html',
+            {
+                'question': question,
+            }
+        )
 
 
 class Question (models.Model):

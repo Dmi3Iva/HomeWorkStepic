@@ -5,10 +5,10 @@ def test(request, *args, **kwargs):
 	return HttpResponse('OK')
 
 def home(request):
-	Question.objects.new()
+	Question.objects.new(request)
 
 def popular(request):
-	Question.objects.popular()
+	Question.objects.popular(request)
 
-def question(request, point):
-	Question.objects.question()
+def question(request, pk):
+	Question.objects.question(request, pk)
