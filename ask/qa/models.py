@@ -27,7 +27,7 @@ class QuestionManager(models.Manager):
         questions =  self.order_by('-rating')
         return self.getQuestionsPage(self,request, questions,'/popular/?page=', 'popular.html')
 
-    def question(self,request, pk)
+    def question(self,request, pk):
         question = get_object_or_404(Question, pk)
         return render(
             request,
