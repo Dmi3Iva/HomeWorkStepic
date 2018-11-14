@@ -154,3 +154,55 @@ ImportError: No module named 'ask.wsgi'
 [2018-11-09 01:56:25 +0000] [1021] [ERROR] Connection in use: ('0.0.0.0', 8000)
 [2018-11-09 01:56:25 +0000] [1021] [ERROR] Retrying in 1 second.
 [2018-11-09 01:56:26 +0000] [1021] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2018-11-14 08:05:19 +0000] [114] [INFO] Starting gunicorn 19.6.0
+[2018-11-14 08:05:19 +0000] [114] [INFO] Listening at: http://0.0.0.0:8000 (114)
+[2018-11-14 08:05:19 +0000] [114] [INFO] Using worker: sync
+[2018-11-14 08:05:19 +0000] [130] [INFO] Booting worker with pid: 130
+[2018-11-14 08:06:14 +0000] [732] [INFO] Starting gunicorn 19.6.0
+[2018-11-14 08:06:14 +0000] [732] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-11-14 08:06:14 +0000] [732] [ERROR] Retrying in 1 second.
+[2018-11-14 08:06:15 +0000] [732] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-11-14 08:06:15 +0000] [732] [ERROR] Retrying in 1 second.
+[2018-11-14 08:06:16 +0000] [732] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-11-14 08:06:16 +0000] [732] [ERROR] Retrying in 1 second.
+[2018-11-14 08:06:17 +0000] [732] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-11-14 08:06:17 +0000] [732] [ERROR] Retrying in 1 second.
+[2018-11-14 08:06:18 +0000] [732] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-11-14 08:06:18 +0000] [732] [ERROR] Retrying in 1 second.
+[2018-11-14 08:06:19 +0000] [732] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2018-11-14 08:17:42 +0000] [889] [INFO] Starting gunicorn 19.6.0
+[2018-11-14 08:17:42 +0000] [889] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-11-14 08:17:42 +0000] [889] [ERROR] Retrying in 1 second.
+[2018-11-14 08:17:43 +0000] [889] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-11-14 08:17:43 +0000] [889] [ERROR] Retrying in 1 second.
+[2018-11-14 08:17:44 +0000] [889] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-11-14 08:17:44 +0000] [889] [ERROR] Retrying in 1 second.
+[2018-11-14 08:17:45 +0000] [889] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-11-14 08:17:45 +0000] [889] [ERROR] Retrying in 1 second.
+[2018-11-14 08:17:46 +0000] [889] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-11-14 08:17:46 +0000] [889] [ERROR] Retrying in 1 second.
+[2018-11-14 08:17:47 +0000] [889] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2018-11-14 08:20:25 +0000] [1034] [INFO] Starting gunicorn 19.6.0
+[2018-11-14 08:20:25 +0000] [1034] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-11-14 08:20:25 +0000] [1034] [ERROR] Retrying in 1 second.
+[2018-11-14 08:20:26 +0000] [1034] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-11-14 08:20:26 +0000] [1034] [ERROR] Retrying in 1 second.
+[2018-11-14 08:20:27 +0000] [1034] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-11-14 08:20:27 +0000] [1034] [ERROR] Retrying in 1 second.
+[2018-11-14 08:20:28 +0000] [1034] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-11-14 08:20:28 +0000] [1034] [ERROR] Retrying in 1 second.
+[2018-11-14 08:20:29 +0000] [1034] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-11-14 08:20:29 +0000] [1034] [ERROR] Retrying in 1 second.
+[2018-11-14 08:20:30 +0000] [1034] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2018-11-14 08:21:12 +0000] [1147] [INFO] Starting gunicorn 19.6.0
+[2018-11-14 08:21:12 +0000] [1147] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-11-14 08:21:12 +0000] [1147] [ERROR] Retrying in 1 second.
+[2018-11-14 08:21:13 +0000] [1147] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-11-14 08:21:13 +0000] [1147] [ERROR] Retrying in 1 second.
+[2018-11-14 08:21:14 +0000] [1147] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-11-14 08:21:14 +0000] [1147] [ERROR] Retrying in 1 second.
+[2018-11-14 08:21:15 +0000] [1147] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-11-14 08:21:15 +0000] [1147] [ERROR] Retrying in 1 second.
+[2018-11-14 08:21:16 +0000] [1147] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-11-14 08:21:16 +0000] [1147] [ERROR] Retrying in 1 second.
+[2018-11-14 08:21:17 +0000] [1147] [ERROR] Can't connect to ('0.0.0.0', 8000)
