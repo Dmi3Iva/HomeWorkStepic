@@ -20,7 +20,7 @@ class QuestionManager(models.Manager):
         )
 
     def new (self, request):
-        questions = self.order_by('-added_at')
+        questions = self.order_by('-id')
         return self.getQuestionsPage(self,request, questions,'?page=', 'new.html')
 
     def popular(self,request):
@@ -47,11 +47,16 @@ class Question (models.Model):
     #links
     author = models.ForeignKey(User, related_name="authors_users")
     likes = models.ManyToManyField(User, related_name="likes_users")
-
+    
+    def __unicode__(self) :
+	return self.title
 
 class Answer (models.Model):
     text = models.TextField()
     added_at = models.DateTimeField(blank=True,auto_now_add=True)
     #links
-    question = models.ForeignKey(Question, related_name="question_id")
+    question = models.ForeignKey(Question)
     author = models.ForeignKey(User, related_name = "author_id")
+
+    def __unicode__(self):
+	return self.text

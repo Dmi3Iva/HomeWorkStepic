@@ -1,5 +1,4 @@
 pythonpath = '/home/box/web/ask/'
-bind='0.0.0.0:8000'
+bind='0.0.0.0:80'
 daemon=True
-errorlog = 'err.log'
-acceslog = 'acc.log'
+errorlog = 'error-gunocorn.log'

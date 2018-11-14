@@ -1,0 +1,60 @@
+[2018-11-14 08:56:02 +0000] [2088] [INFO] Starting gunicorn 19.6.0
+[2018-11-14 08:56:02 +0000] [2088] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-11-14 08:56:02 +0000] [2088] [ERROR] Retrying in 1 second.
+[2018-11-14 08:56:03 +0000] [2088] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-11-14 08:56:03 +0000] [2088] [ERROR] Retrying in 1 second.
+[2018-11-14 08:56:04 +0000] [2088] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-11-14 08:56:04 +0000] [2088] [ERROR] Retrying in 1 second.
+[2018-11-14 08:56:05 +0000] [2088] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-11-14 08:56:05 +0000] [2088] [ERROR] Retrying in 1 second.
+[2018-11-14 08:56:06 +0000] [2088] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-11-14 08:56:06 +0000] [2088] [ERROR] Retrying in 1 second.
+[2018-11-14 08:56:07 +0000] [2088] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2018-11-14 09:00:44 +0000] [2215] [INFO] Starting gunicorn 19.6.0
+[2018-11-14 09:00:44 +0000] [2215] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-11-14 09:00:44 +0000] [2215] [ERROR] Retrying in 1 second.
+[2018-11-14 09:00:45 +0000] [2215] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-11-14 09:00:45 +0000] [2215] [ERROR] Retrying in 1 second.
+[2018-11-14 09:00:46 +0000] [2215] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-11-14 09:00:46 +0000] [2215] [ERROR] Retrying in 1 second.
+[2018-11-14 09:00:47 +0000] [2215] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-11-14 09:00:47 +0000] [2215] [ERROR] Retrying in 1 second.
+[2018-11-14 09:00:48 +0000] [2215] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-11-14 09:00:48 +0000] [2215] [ERROR] Retrying in 1 second.
+[2018-11-14 09:00:49 +0000] [2215] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2018-11-14 09:04:53 +0000] [2327] [INFO] Starting gunicorn 19.6.0
+[2018-11-14 09:04:53 +0000] [2327] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-11-14 09:04:53 +0000] [2327] [ERROR] Retrying in 1 second.
+[2018-11-14 09:04:54 +0000] [2327] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-11-14 09:04:54 +0000] [2327] [ERROR] Retrying in 1 second.
+[2018-11-14 09:04:55 +0000] [2327] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-11-14 09:04:55 +0000] [2327] [ERROR] Retrying in 1 second.
+[2018-11-14 09:04:56 +0000] [2327] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-11-14 09:04:56 +0000] [2327] [ERROR] Retrying in 1 second.
+[2018-11-14 09:04:57 +0000] [2327] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-11-14 09:04:57 +0000] [2327] [ERROR] Retrying in 1 second.
+[2018-11-14 09:04:58 +0000] [2327] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2018-11-14 09:10:02 +0000] [2469] [INFO] Starting gunicorn 19.6.0
+[2018-11-14 09:10:02 +0000] [2469] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2018-11-14 09:10:02 +0000] [2469] [ERROR] Retrying in 1 second.
+[2018-11-14 09:10:03 +0000] [2469] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2018-11-14 09:10:03 +0000] [2469] [ERROR] Retrying in 1 second.
+[2018-11-14 09:10:04 +0000] [2469] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2018-11-14 09:10:04 +0000] [2469] [ERROR] Retrying in 1 second.
+[2018-11-14 09:10:05 +0000] [2469] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2018-11-14 09:10:05 +0000] [2469] [ERROR] Retrying in 1 second.
+[2018-11-14 09:10:06 +0000] [2469] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2018-11-14 09:10:06 +0000] [2469] [ERROR] Retrying in 1 second.
+[2018-11-14 09:10:07 +0000] [2469] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2018-11-14 09:13:44 +0000] [2620] [INFO] Starting gunicorn 19.6.0
+[2018-11-14 09:13:44 +0000] [2620] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2018-11-14 09:13:44 +0000] [2620] [ERROR] Retrying in 1 second.
+[2018-11-14 09:13:45 +0000] [2620] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2018-11-14 09:13:45 +0000] [2620] [ERROR] Retrying in 1 second.
+[2018-11-14 09:13:46 +0000] [2620] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2018-11-14 09:13:46 +0000] [2620] [ERROR] Retrying in 1 second.
+[2018-11-14 09:13:47 +0000] [2620] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2018-11-14 09:13:47 +0000] [2620] [ERROR] Retrying in 1 second.
+[2018-11-14 09:13:48 +0000] [2620] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2018-11-14 09:13:48 +0000] [2620] [ERROR] Retrying in 1 second.
+[2018-11-14 09:13:49 +0000] [2620] [ERROR] Can't connect to ('0.0.0.0', 80)

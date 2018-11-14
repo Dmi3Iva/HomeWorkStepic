@@ -1,1 +1,0 @@
-2018/11/07 12:23:39 [error] 708#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: *.*$, request: "GET /question/123 HTTP/1.1", upstream: "http://0.0.0.0:8000/question/123", host: "localhost"
